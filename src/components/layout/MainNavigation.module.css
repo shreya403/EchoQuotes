@@ -36,3 +36,19 @@
 .nav a.active {
   color: black;
 }
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 5%;
+    height: 4rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav li {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+}
